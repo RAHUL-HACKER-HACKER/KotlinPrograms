@@ -1,3 +1,13 @@
+class Main{
+    var name="rahul"
+    fun disp(){
+        println("Main class")
+
+    }
+}
+
 fun main(){
-    println("hello rahul")
+    var obj=Main()
+    println(obj.name)
+    obj.disp()
 }
